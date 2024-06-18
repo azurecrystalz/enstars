@@ -1,0 +1,56 @@
+# Header
+menu:
+  Home: /#
+  About: /about
+  Rules: /tos
+  Masterlist: /masterlist
+rss: /atom.xml
+
+home:
+  style: detail           # default, detail
+
+# Banner
+banner:
+  enable: true         # Display banner
+  url: https://res.cloudinary.com/djq41tb84/image/upload/v1706308942/translation%20site/uptb0fpiywk8rjpzdlgt.jpg
+  position: object-fit         # Specifies the alignment of the image, see the "object-position" property in CSS
+  onAllPages: true         # Display banner on all pages
+
+# Appearence
+hue: 250                  # The hue of the theme color (e.g. red: 0, orange: 60, blue: 260, purple: 300, pink: 345)
+
+# Sidebar
+sidebar:
+  widgets:                 # Plugins to be enabled (profile, category, tag, archive, recent_posts)
+    normal:                # Scroll along with the page
+      - profile
+    sticky:                # Stick to the top of the page
+      - category
+      - tag
+      - archive
+      - recent_posts
+
+# Widget behavior
+archive_type: 'monthly'
+recent_posts_limits: 5
+
+# Personal info
+avatar: https://res.cloudinary.com/djq41tb84/image/upload/v1706308067/translation%20site/zm9c530senhalxkosz6g.jpg
+author: aurora
+subtitle: crazywinkP that translates crazyb centered stories | please read my TOS
+links:
+  - name: Care For Gaza
+    icon: "fa-solid fa-notes-medical"  # Find icon codes at https://fontawesome.com/search
+    url: https://twitter.com/CareForGaza
+  - name: Tumblr
+    icon: fa-brands fa-tumblr
+    url: https://azurecrystalz.tumblr.com
+  - name: CuriousCat
+    icon: fa-regular fa-shield-cat
+    url: https://curiouscat.live/azurecrystalz
+
+comment:
+  valine:
+    enable: false
+    appId: 
+    appKey: 
